@@ -53,10 +53,15 @@ SIMD_Mini_GPU/
 Open **ModelSim** and run the following commands in the Transcript window:
 
 vlib work
+
 vmap work work
+
 vlog pe.v simd_core.v simd_tb.v
+
 vsim work.simd_tb
+
 add wave -r *
+
 run 100ns
 
 ---
